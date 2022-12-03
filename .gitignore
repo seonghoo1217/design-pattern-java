@@ -1,0 +1,6 @@
+# Project exclude paths
+/out/
+/Pattern-Test/.gradle/
+/Pattern-Test/build/
+/Pattern-Test/out/production/classes/
+/Pattern-Test/out/test/classes/
