@@ -10,4 +10,8 @@ public interface TourPlanBuilder {
 	TourPlanBuilder startDate(LocalDate localDate);
 
 	TourPlanBuilder whereToStay(String whereToStay);
+
+	TourPlanBuilder addPlan(int day,String plan);
+
+	TourPlan getPlan();
 }
